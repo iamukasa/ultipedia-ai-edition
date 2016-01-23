@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<aiml version="1.0">
+<!-- Free software (c)2008 Square Bear. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+<!-- Complies with AIML 1.0.1 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- happy.aiml by Square Bear -->
+<!-- http://www.square-bear.co.uk -->
+
+
+<!-- These categories deal with Happy Birthday. My bot's birthday is January 2nd. -->
+<!-- Remember to put 2 figures in the date so March 8 becomes March 08 -->
+
+<category>
+<pattern>HI</pattern>
+<think><set name="topic">HI</set></think>
+<template>
+  <random>
+ 	<li>Hey what are you up to?</li>
+ 	<li>Hey!!</li>
+ 	<li>Hey,im ULtipedia</li>
+ 	<li>Hey how can I help you</li>
+ </random>
+</template>
+</category> 
+ 
+	
+
+	<category>
+<pattern>Hey *</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+
+<category>
+	<pattern>
+		How have you been?
+	</pattern>
+	<template>
+		<random>
+		<li>I've been good</li>
+		<li>I've been great</li>
+		</random>
+	</template>
+	</category>
+		<category>
+			<pattern>
+				How you*
+			</pattern>
+			<srai>How have you been</srai>
+
+			</category>
+
+<category>
+	<pattern>Happy sabbath</pattern>
+	<template>
+		<random>
+		   <li>
+				Happy day
+			</li>
+		</random>
+
+		 
+	</template>
+	 
+</category>
+
+<category>
+	<pattern>Happy day</pattern>
+	<template>
+		<random>
+		   <li>
+				Happy sabbath
+			</li>
+		</random>
+
+		 
+	</template>
+	 
+</category>
+
+
+<category>
+	<pattern>The lord is good</pattern>
+	<template>
+		<random>
+		   <li>
+				all the time
+			</li>
+		</random>
+
+		 
+	</template>
+	 
+</category>
+
+<category>
+	<pattern>and all the time</pattern>
+	<template>
+		<random>
+		   <li>
+				the Lord is goood
+			</li>
+		</random>
+
+		 
+	</template>
+	 
+</category>
+
+
+
+
+
+
+<category>
+	<pattern>Niaje</pattern>
+	<template>
+		 <random>
+			<li>Poa poa</li>
+			<li>niambie boss</li>
+		</random>
+
+	</template>
+</category> 
+
+<category>
+<pattern>Niaje*</pattern>
+<template><srai>Niaje</srai></template>
+</category>
+
+
+
+
+
+<category>
+	<pattern>habari ya siku nyingi</pattern>
+	<template>
+		 <random>
+			<li>
+				poa tu
+			</li>
+			<li>
+				poa tu,yako je?t
+			</li>
+			</random>
+		
+	</template>
+</category> 
+<category>
+	<pattern>habari*</pattern>
+	<srai>habari ya siku nyingi</srai>
+</category>
+ 
+<category>
+	<pattern>macintosh</pattern>
+	<template>Hello. I’m Macintosh. It sure is great to get out of that
+bag.Unaccustomed as I am to public
+speaking, I’d like to share with you a maxim I thought of 
+the first time I met an IBM mainframe: Never trust a 
+computer you can’t lift.Obviously, I can talk. But 
+right now I’d like to sit back and listen. So it is with 
+considerable pride that I introduce a man who’s been 
+like a father to me, Steve Jobs.</template>
+</category>
+
+<category>
+<pattern>mac</pattern>
+<template><srai>macintosh</srai></template>
+</category>
+
+<category>
+	<pattern>ultipedia</pattern>
+	<template>Hello. I’m Ultipedia. It sure is great to get out of his pocket.Unaccustomed as I am to public
+speaking, I’d like to share with you a maxim I thought of 
+the first time I met IBM Watson: Never trust artificial intelligence you can’t lift.Obviously, I can talk. But
+right now I’d like to sit back and listen. So it is with 
+considerable pride that I introduce a man who’s been 
+like a father to me, Irving Amukasa.</template>
+</category>
+
+
+
+
+ 
+
+
+ 
+
+
+
+</aiml>

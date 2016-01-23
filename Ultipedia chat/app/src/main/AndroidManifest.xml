@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amusoft.ultipediachat" >
+
+    <application
+        android:name=".ChatBotApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+
+        <service
+            android:name=".LoadBrainService"
+            android:exported="false" />
+        <service
+            android:name=".BrainService"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/CustomActionBarTheme" >
+        </activity>
+    </application>
+
+</manifest>
